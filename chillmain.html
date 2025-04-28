@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CHILLLLLLLLLL</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: black;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: lime;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      font-size: 3rem;
+    }
+
+    #smiley {
+      font-size: 10rem;
+      animation: spin 5s linear infinite, chillcolors 10s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg);}
+      100% { transform: rotate(360deg);}
+    }
+
+    @keyframes chillcolors {
+      0% { color: lime; }
+      25% { color: cyan; }
+      50% { color: magenta; }
+      75% { color: yellow; }
+      100% { color: lime; }
+    }
+
+    #title {
+      margin-top: 20px;
+      animation: breathe 4s ease-in-out infinite;
+    }
+
+    @keyframes breathe {
+      0% { transform: scale(1);}
+      50% { transform: scale(1.1);}
+      100% { transform: scale(1);}
+    }
+  </style>
+</head>
+<body>
+
+<div id="smiley">😁</div>
+<div id="title">CHILLLLLLLLLL</div>
+
+</body>
+</html>
